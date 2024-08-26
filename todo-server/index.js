@@ -4,7 +4,7 @@ const { existsSync, readFileSync, writeFileSync } = require('fs');
 const { createServer } = require('http');
 
 // файл для базы данных дел
-const DB_FILE = './db.json';
+const DB_FILE = './todo-server/db.json';
 // префикс URI для всех методов приложения
 const URI_PREFIX = '/api/todos';
 // номер порта, на котором будет запущен сервер
